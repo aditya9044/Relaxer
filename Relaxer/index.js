@@ -23,8 +23,3 @@ function breathAnimation() {
 
 setInterval(breathAnimation, totalTime);
 
-function musicPlay(){
-  if(document.getElementById('music').checked){
-    document.getElementById('hide').setAttribute('visibility',none)
-  }
-}
